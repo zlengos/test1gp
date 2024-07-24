@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc68e3acef4406883bc6f5b3ef02094, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  enemySpawnPoints:
+  - {fileID: 5361377414783759091, guid: b79165e7c794b6541bc5c18890bc7734, type: 3}
+  - {fileID: 2052095645720319036, guid: 70ccd5648a9855e45aad88302ea93392, type: 3}
+  - {fileID: 8352387637084793996, guid: 14031919c87b46b4f942190c3c77099c, type: 3}
+  - {fileID: 6233473091528186301, guid: 6f45d05fd13e0294dba91d52ea48a4cb, type: 3}
+  - {fileID: 1357558849544308379, guid: 8f572fbe6a7550645b835f442a328939, type: 3}
+  - {fileID: 6177842214289276734, guid: eb8a6b486abf90f49940c6ee055eafac, type: 3}
+  - {fileID: 5867504232930441020, guid: 49685003eb2c8cf47b7d92a02e38c974, type: 3}
+  playerConfig:
+    attackDistance: 3
+    attackSpeed: 0.5
+    attackDamage: 1
+    bulletSpeed: 1
+    playerSpeed: 1.5
+    playerHealth: 3
+  enemiesConfig:
+    minEnemyCount: 10
+    maxEnemyCount: 15
+    minSpawnCooldown: 0.5
+    maxSpawnCooldown: 2.5
+    minEnemySpeed: 0.5
+    maxEnemySpeed: 1.1
+    enemyHealthCount: 4
+  restartCanvasConfig:
+    winText: You win!
+    loseText: You lose :(
+    winSprite: {fileID: 21300000, guid: 6ec03debe49503646996fe77beb8032d, type: 3}
+    loseSprite: {fileID: 21300000, guid: d94c816d5a1525f4f9e41573551ae91f, type: 3}
